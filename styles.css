@@ -20,14 +20,6 @@ html {
   }
 }
 
-body {
-
-}
-
-footer {
-
-}
-
 .links {
   display: flex;
   flex-wrap: wrap;
@@ -36,15 +28,8 @@ footer {
 }
 
 .link {
-  display: flex;
+  display: block;
   margin: 0.25rem 0.5rem;
-}
-
-.link__icon {
-  margin-right: 0.25rem;
-}
-
-.link__anchor {
   color: var(--dark);
   text-decoration: underline;
 }
